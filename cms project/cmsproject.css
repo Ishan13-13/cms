@@ -1,0 +1,120 @@
+
+body, ul, li, h1, h2, h3, h5, a{
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+}
+header{
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  left: 0;
+  top: 0;
+}
+nav{
+  color: white;
+   padding: 30px;
+   position: absolute;
+   left: 0;
+   /* right: auto; */
+   top: 30%;
+}
+nav ul{
+ justify-content: space-between;
+ white-space: nowrap;
+ max-width: 1000px;
+ margin: 0 auto;
+}
+nav li{
+ width: 20%;
+ display: inline-block;
+ font-size: 14px;
+ }
+nav{
+ background-color: #f4f4f4;
+ padding: 20px;
+ position: sticky;
+ top: 70px;
+}
+nav li a{
+ text-decoration: none;
+ color: #4b4b4b;
+}
+.doc img{
+  max-width: 100%;
+}
+.doc .heading{
+  color: rgb(255, 255, 255);
+  position: absolute ;
+  /* z-index: 1; */
+  bottom: 20px;
+  right: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.doc h2{
+  text-align: center;
+  font-size: 52px;
+}
+.doc h2 span{
+  font-size: 1.3em;
+}
+ .account {
+  position: absolute ;
+  bottom: -20px;
+  right: 200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: auto;
+  background-color: rgb(162, 231, 240);
+  border: 3px solid white;
+  padding: 6px 12px;
+  border-radius: 36px;
+  list-style-type: none;
+}
+.account li a{
+  text-decoration: none;
+  color: white;
+  
+}
+.account li:hover{
+ text-decoration: underline;
+}
+/* .row .column{
+  text-align: center;
+  right: 100px;
+     /* margin: 70px 0; */
+     /* white-space: nowrap; */
+  /* width: 100%; */
+  /* float: left;
+  margin-bottom: 5%;
+  padding: 3%; */
+  /* background-color: #fff;
+  border: 0.5px solid #f7f7f7 ; 
+  
+} */
+.column h5{
+  text-align: center;
+}
+.column p{
+  text-align: center;
+}
+.row h3{
+  text-align: center;
+  color: black ;
+}
+/* .column {
+    float: left;
+    width: 33.33%;
+  } */
+  /* .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  } */
+ /* .form::before{
+   text-align: center ;
+ } */
